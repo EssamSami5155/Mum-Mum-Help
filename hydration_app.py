@@ -620,7 +620,7 @@ class DashboardScreen(tk.Frame):
         topbar.grid(row=0, column=0, columnspan=2, sticky="ew")
         topbar.columnconfigure(1, weight=1)
 
-        tk.Label(topbar, text="💧 HydraMaterna",
+        tk.Label(topbar, text="💧 Mum Mum Help",
                  font=(FONT_FAMILY, 18, "bold"),
                  fg=C["pink_hot"], bg=C["bg_card"]).grid(row=0, column=0, sticky="w")
 
@@ -1010,7 +1010,7 @@ class DashboardScreen(tk.Frame):
 class HydrationApp(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("HydraMaterna — Maternal Hydration Tracker")
+        self.title("Mum Mum Help — Maternal Hydration Tracker")
         self.configure(bg=C["bg_deep"])
         self.resizable(True, True)
         self.geometry("900x780")
