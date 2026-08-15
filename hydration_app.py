@@ -418,7 +418,7 @@ class SetupScreen(tk.Frame):
         # ── Header ────────────────────────────────────────────────────
         hdr = card_frame(inner, pady=20, padx=30)
         hdr.grid(row=0, column=0, sticky="ew", padx=20, pady=(20, 10))
-        tk.Label(hdr, text="💧 HydraMaterna",
+        tk.Label(hdr, text="💧 Mum Mum Help",
                  font=(FONT_FAMILY, 26, "bold"),
                  fg=C["pink_hot"], bg=C["bg_card"]).pack()
         tk.Label(hdr,
